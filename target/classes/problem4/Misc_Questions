@@ -1,0 +1,38 @@
+//Question-4
+
+1) What do you know about the Client server architecture?
+	--> Client Server Architecture has 2 basic components as the name suggests. The first is the Client, 
+		and it REQUESTS for the information from the server. The request is sent to the server and which 
+		can be any type of query or an update. It can be a query on the database or simply something 
+		required from the service layer. 
+		
+		The Server than processes the request and sends the response to the client. 
+		
+
+2) What is caching and its use cases?
+	--> Caching is storing of data such that the future request of the data can be fulfilled faster.
+		Cache usually contains data that is requested often.
+		
+		Caching is most useful where the same thing is accessed again and again and it takes a lot
+		of time or computing power to get the data again and again.
+		
+		It can also be useful where the server response time is too high because of the distance
+		between the main server and the request destination. In this case, a "cache" is placed
+		at each destination which saves the data requested from the server to serve the future 
+		requests.
+		
+
+3) What are web sockets and where are they useds?
+	--> Web sockets enable live handshake between the server and the user. HTTP is stateless which
+	means that every request is distinct from the other but in the case of Web Sockets, every request
+	is a part of the connection pool.
+	
+	They are most used where live connections are required
+	for e.g. Multiplayer games, chatting application etc.
+	
+	
+4) What are the public and private keys in encryption?
+	--> Public keys and private keys are both used in encryption. The public key is given to the public
+		while the private key is distinct and protected for the particular user. Both are used at the 
+		time of encryption but only the user with the corresponding private key can decrypt the data.
+		

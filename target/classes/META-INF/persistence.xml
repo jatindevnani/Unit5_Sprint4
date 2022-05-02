@@ -6,17 +6,17 @@
              version="2.0">
 
 
-    <persistence-unit name="employeeUnit" >
+    <persistence-unit name="bookUnit" >
 
-	<class>problem2.Beans.Employee</class>        
+	<class>problem1.dataAccessLayer.beans.Book</class>        
 
 <properties>
          
            <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
-          <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/employee" />
+          <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/book" />
             <property name="javax.persistence.jdbc.user" value="root" />
             <property name="javax.persistence.jdbc.password" value="jatin" />
-            <property name="hibernate.hbm2ddl.auto"  value="create"/>
+
             <property name="hibernate.show_sql"  value="true"/>
          </properties>
     </persistence-unit>

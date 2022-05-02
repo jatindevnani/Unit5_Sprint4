@@ -1,0 +1,30 @@
+//Operating system and its responsibilities
+
+--> An Operating system is the layer between between  a computer user and the hardware components.
+	it performs all the basic tasks like managing the memory, managing the processes, it handles the 
+	connections of peripherals etc.
+	
+	Operating System e.g --> Windows, MAC, Android, Linux etc.
+	
+--> Features of an Operating system
+	a) Memory Management
+		There are two types of memories in a computer. One is the RAM and the other is the ROM
+		An operating system manages both these memories. It allots the required RAM automatically
+		to the running processes as well.
+		
+	b) Processor Management
+		Every task running in the background requires some CPU (Central Processing Unit) power
+		This is a very crucial task and the operating system takes care of this work very
+		efficiently. It allocates and deallocates the cores to the processes
+		
+	c) Device Management
+		Operating system generally detects new devices connected to the computer and makes them 
+		ready to use for the user. The user can also install the driver software to make the connected
+		hardware component ready to use in case it is not detected by the operating system.
+		
+	d) Security
+		Now a days the operating system usually comes with inbuilt security against mal-wares and viruses
+		
+	e) Optimization of performance
+		Operating system automatically closes dead processes in the background and clears the memory 
+		automatically. It is always performing optimizations in the background.

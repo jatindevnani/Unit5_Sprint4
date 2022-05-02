@@ -1,0 +1,18 @@
+//CAP Theorem
+ --> The CAP stands for 
+ 	(C) Consistency -> Data is consistent among all Nodes
+ 	(A) Availability -> All nodes are always available
+ 	(P) Partition Tolerance -> If if there is a break in communication b/w any two nodes, the system will still operate.
+ 	
+ 	These three are the most sought after properties of any distributed system.
+ 	The CAP theorem states that no distributed system can achieve more than any two
+ 	of the above at a single point of time.
+ 	
+ 	The CAP theorem lets you determine how you want to handle your distributed database
+ 	when a few database servers refuse to communicate with each other. It can also help in choosing a 
+ 	database for your system e.g. SQL, noSQL 
+ 	
+ 	If high availability is required. Consistency cannot be achieved.
+ 	If High consistency is required, Partition tolerance will be low.
+ 	If high partition tolerance is required, Consistency cannot be achieved.
+ 	
